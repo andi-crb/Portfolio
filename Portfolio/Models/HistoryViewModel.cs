@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+
 
 namespace Portfolio.Models
 {
@@ -6,5 +8,12 @@ namespace Portfolio.Models
     {
         public string Title { get; set; }
         public ICollection<Job> Jobs { get; set; }
+
+
     }
+
+
+
+
+    
 }
